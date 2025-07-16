@@ -9,7 +9,7 @@ Apply SPSS (.sps) labels to KoboToolbox, ODK or ONA data in R.
 ## Installation
 
 ```r
-remotes::install_github("https://github.com/abouattara/labelize-kobotoolbox-dat/labelizeKobo")
+remotes::install_github("https://github.com/abouattara/labelizeKobo/labelizeKobo")
 
 library(labelizeKobo)
 
