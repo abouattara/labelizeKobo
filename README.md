@@ -12,6 +12,19 @@ It facilitates the transformation of raw, coded datasets into human-readable for
 
 Easily apply SPSS (`.sps`) labels to KoboToolbox, ODK, or ONA data in **R**.
 
+## Installation and usage
+
+```r
+remotes::install_github("https://github.com/abouattara/labelizeKobo/labelizeKobo")
+
+library(labelizeKobo)
+
+data <- readxl::read_xlsx("my_data.xlsx")
+labelled_data <- labelize_my_data(data, "labels.sps")
+
+View(labelled_data)
+haven::write_dta(data_xls, paste0(getwd(),"/my_data.dta"))
+```
 
 ---
 ## VERSION / FR
@@ -27,7 +40,7 @@ Cela facilite la transformation des données codifiées en un format lisible et 
 
 Appliquez facilement les labels issus d’un fichier SPSS (`.sps`) à vos données KoboToolbox, ODK ou ONA dans **R**.
 
-## Installation
+## Installation et utilisation
 
 ```r
 remotes::install_github("https://github.com/abouattara/labelizeKobo/labelizeKobo")
