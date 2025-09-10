@@ -1,4 +1,7 @@
-![ns](package_labelize_kobo.webp)
+# Libelizekobo package use case
+![Libelizekobo use case](package_labelize_kobo.webp)
+
+# How to use it
 ---
 ## VERSION / ENG
 ---
