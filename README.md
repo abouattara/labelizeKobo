@@ -1,5 +1,6 @@
 ![Libelizekobo use case](package_labelize_kobo.webp)
----
+
+
 VERSION / ENG
 ---
 
@@ -27,7 +28,7 @@ View(labelled_data)
 haven::write_dta(data_xls, paste0(getwd(),"/my_data.dta"))
 ```
 
----
+
 VERSION / FR
 ---
 
