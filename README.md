@@ -1,12 +1,9 @@
-# Libelizekobo package use case
 ![Libelizekobo use case](package_labelize_kobo.webp)
-
-# How to access it
 ---
-## VERSION / ENG
+VERSION / ENG
 ---
 
-### 📦 Package to Label KoboToolbox, ODK, or ONA Data Using `.sps` Files
+## 📦 Package to Label KoboToolbox, ODK, or ONA Data Using `.sps` Files
 
 This repository contains all the resources developed to apply labels to survey data collected via **KoboToolbox**, **ODK**, or **ONA** using label files in `.sps` (SPSS syntax) format.
 
@@ -16,7 +13,7 @@ It facilitates the transformation of raw, coded datasets into human-readable for
 
 Easily apply SPSS (`.sps`) labels to KoboToolbox, ODK, or ONA data in **R**.
 
-## Installation and usage
+### Installation and usage
 
 ```r
 remotes::install_github("https://github.com/abouattara/labelizeKobo/labelizeKobo")
@@ -31,10 +28,10 @@ haven::write_dta(data_xls, paste0(getwd(),"/my_data.dta"))
 ```
 
 ---
-## VERSION / FR
+VERSION / FR
 ---
 
-### 📦 Package pour **labelliser** vos données brutes (KoboToolbox, ODK, ONA) à partir d’un fichier `.sps`
+## 📦 Package pour **labelliser** vos données brutes (KoboToolbox, ODK, ONA) à partir d’un fichier `.sps`
 
 Ce dépôt contient toutes les ressources nécessaires développées pour **labelliser** les données d’enquêtes collectées via **KoboToolbox**, **ODK** ou **ONA**, à l’aide d’un fichier de labels au format `.sps` (syntaxe SPSS).
 
@@ -44,7 +41,7 @@ Cela facilite la transformation des données codifiées en un format lisible et 
 
 Appliquez facilement les labels issus d’un fichier SPSS (`.sps`) à vos données KoboToolbox, ODK ou ONA dans **R**.
 
-## Installation et utilisation
+### Installation et utilisation
 
 ```r
 remotes::install_github("https://github.com/abouattara/labelizeKobo/labelizeKobo")
