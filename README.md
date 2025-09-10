@@ -1,4 +1,4 @@
-[](https://github.com/abouattara/labelizeKobo/edit/main/package_labelize_kobo.webp)
+![](https://github.com/abouattara/labelizeKobo/edit/main/package_labelize_kobo.webp)
 ---
 ## VERSION / ENG
 ---
