@@ -1,7 +1,7 @@
 ![Libelizekobo use case](package_labelize_kobo.webp)
 
 
-![lien vers le repos](https://github.com/abouattara/labelizeKobo)
+[lien vers le repos](https://github.com/abouattara/labelizeKobo)
 
 VERSION / ENG
 ---
